@@ -1,0 +1,184 @@
+body {
+	background-color: #C6C6C6;
+	color: black;
+   font-family: 'Lora', serif;
+	font-size: 18px;
+}
+
+#banner h1{
+   color: white;
+}
+h1, h2 {
+	font-family: 'Roboto', serif;
+}
+h1{
+	color: #3E287B;
+	font-family: Helvetica bold;
+	font-weight: 900;
+	font-size: 32px;
+}
+
+h2{
+	color: #3E287B;
+	font-family: Helvetica;
+	font-weight: 100px;
+	font-size: 24px;
+}
+
+a{
+	text-decoration: none;
+	color: #3E287B;
+   font-weight: 400;
+   font-size: 16px;
+}
+a:hover {
+   color: white;
+   background-color: #3E287B;
+   border: dotted;
+}
+
+.container {
+   width: 1000px;
+   margin: 30px 20px 20px 20px;
+   padding: 90px;
+}
+.card-one {
+   background-color: #ecf0f1;
+   text-align: center;
+   width: 900px;
+   padding: 30px;
+   box-shadow: 6px 12px 22px #323232;
+   border-radius: 6px;
+}
+
+.card-white { 
+   background-color: #ecf0f1;
+   width: 900px;
+   padding: 80px 160px 80px 80px;
+   box-shadow: 4px 10px 20px #323232;
+   border-radius: 8px;
+   text-align: center;
+   display: flex;
+   align-items: stretch;
+   flex-basis: 550px;
+   flex-grow: 1;
+   margin-top: 35px;
+   border: 20px;
+   align-content: space-around;
+}
+
+
+.images-circle{
+   border-radius: 50%;
+   padding: 10px;
+}
+
+.btn-blue{
+   color: white;
+   background-color:#3E287B;
+   margin: 22px;
+   width: 100px;
+   height: 120px;
+   padding: 10px 30px;
+   text-align: justify;
+   border-radius: 9px;
+}
+
+.btn-grey {
+   color: #3E287B;
+   background-color: #b3b3b3;
+   font-weight: bold;
+   font-size: 20px;
+   border: 5px black;
+   margin-top: auto;
+   margin-left: auto;
+   width: 100px;
+   height: 30px;
+   padding: 13px 30px;
+   border-radius: 9px;
+}
+
+.btn-grey hover{
+	background-color: #3E287B;
+	color: lightgray;
+}
+
+
+.btn-blue hover{
+	background-color: white;
+	color: #3E287B;
+}
+
+.text {
+   margin-bottom: 20px;
+   padding: 15px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: none;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 18px;
+}
+
+.list-inline i{
+	font-size: 60px;
+	color:#C6C6C6;
+
+}.list-inline i:hover {
+	color:none;
+}
+
+
+@media (max-width: 760px){
+   .container{
+   width: 600px;
+   margin: 0 auto;
+   }
+}
+@media (max-width: 600px){
+   .container{
+   width: 550px;
+   margin: 0 auto;
+   }
+}
+@media (max-width: 500px){
+   .container{
+   width: 400px;
+   margin:0 auto;
+}
+@media (max-width: 350px){
+   .container{
+   width: 200px;
+   margin:0 auto;
+}
+@media (max-width: 200px){
+   .container{
+   width: 160px;
+   margin: 0 auto;
+   }
+}
+@media (max-width: 160px){
+   .container{
+   width: 100px;
+   margin: 0 auto;
+   }
+}
+
+#introduction p{
+	margin-bottom: 80px;
+}
+
+.div{
+   background: white;
+   border: 20px black;
+   padding: 20px rgb(230,230,230);
+   margin: 30px auto;
+   width: 700px;
+   background: white;
+   border: 50px solid black;
+   margin: 40px;
+}
